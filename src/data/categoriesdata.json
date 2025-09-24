@@ -1,0 +1,208 @@
+{
+  "Design": [
+    {
+      "id": "1",
+      "nr": 1,
+      "item": "DES001",
+      "quantity": 15,
+      "description": "UI/UX Design Template",
+      "notes": "Modern minimalist design"
+    },
+    {
+      "id": "2",
+      "nr": 2,
+      "item": "DES002",
+      "quantity": 8,
+      "description": "Color Palette Set",
+      "notes": "Brand color scheme"
+    },
+    {
+      "id": "3",
+      "nr": 3,
+      "item": "DES003",
+      "quantity": 22,
+      "description": "Typography Kit",
+      "notes": "Font combinations"
+    },
+    {
+      "id": "4",
+      "nr": 4,
+      "item": "DES004",
+      "quantity": 12,
+      "description": "Icon Library",
+      "notes": "Custom icon set"
+    },
+    {
+      "id": "5",
+      "nr": 5,
+      "item": "DES005",
+      "quantity": 6,
+      "description": "Layout Grid",
+      "notes": "Responsive grid system"
+    },
+    {
+      "id": "6",
+      "nr": 6,
+      "item": "DES006",
+      "quantity": 18,
+      "description": "Component Library",
+      "notes": "Reusable UI components"
+    },
+    {
+      "id": "7",
+      "nr": 7,
+      "item": "DES007",
+      "quantity": 9,
+      "description": "Style Guide",
+      "notes": "Design system documentation"
+    },
+    {
+      "id": "8",
+      "nr": 8,
+      "item": "DES008",
+      "quantity": 14,
+      "description": "Mockup Templates",
+      "notes": "Device mockups"
+    },
+    {
+      "id": "9",
+      "nr": 7,
+      "item": "DES007",
+      "quantity": 9,
+      "description": "Style Guide",
+      "notes": "Design system documentation"
+    },
+    {
+      "id": "10",
+      "nr": 8,
+      "item": "DES008",
+      "quantity": 14,
+      "description": "Mockup Templates",
+      "notes": "Device mockups"
+    }
+  ],
+  "Logo & Branding": [
+    {
+      "id": "1",
+      "nr": 1,
+      "item": "LB001",
+      "quantity": 5,
+      "description": "Primary Logo",
+      "notes": "Main brand logo"
+    },
+    {
+      "id": "2",
+      "nr": 2,
+      "item": "LB002",
+      "quantity": 12,
+      "description": "Logo Variations",
+      "notes": "Horizontal and vertical versions"
+    },
+    {
+      "id": "3",
+      "nr": 3,
+      "item": "LB003",
+      "quantity": 8,
+      "description": "Brand Guidelines",
+      "notes": "Logo usage rules"
+    },
+    {
+      "id": "4",
+      "nr": 4,
+      "item": "LB004",
+      "quantity": 15,
+      "description": "Business Cards",
+      "notes": "Digital and print versions"
+    },
+    {
+      "id": "5",
+      "nr": 5,
+      "item": "LB005",
+      "quantity": 7,
+      "description": "Letterhead",
+      "notes": "Official correspondence template"
+    },
+    {
+      "id": "6",
+      "nr": 6,
+      "item": "LB006",
+      "quantity": 20,
+      "description": "Social Media Assets",
+      "notes": "Profile pictures and covers"
+    },
+    {
+      "id": "7",
+      "nr": 7,
+      "item": "LB007",
+      "quantity": 10,
+      "description": "Brand Colors",
+      "notes": "Pantone and RGB values"
+    },
+    {
+      "id": "8",
+      "nr": 8,
+      "item": "LB008",
+      "quantity": 6,
+      "description": "Brand Fonts",
+      "notes": "Typography specifications"
+    },
+    {
+      "id": "8",
+      "nr": 7,
+      "item": "LB007",
+      "quantity": 10,
+      "description": "Brand Colors",
+      "notes": "Pantone and RGB values"
+    },
+    {
+      "id": "9",
+      "nr": 8,
+      "item": "LB008",
+      "quantity": 6,
+      "description": "Brand Fonts",
+      "notes": "Typography specifications"
+    }
+  ],
+  "Marketing": [
+    {
+      "id": "1",
+      "nr": 1,
+      "item": "MKT001",
+      "quantity": 25,
+      "description": "Email Templates",
+      "notes": "Newsletter designs"
+    },
+    {
+      "id": "2",
+      "nr": 2,
+      "item": "MKT002",
+      "quantity": 18,
+      "description": "Social Media Posts",
+      "notes": "Instagram and Facebook content"
+    },
+    {
+      "id": "3",
+      "nr": 3,
+      "item": "MKT003",
+      "quantity": 12,
+      "description": "Banner Ads",
+      "notes": "Web and mobile banners"
+    },
+    {
+      "id": "4",
+      "nr": 4,
+      "item": "MKT004",
+      "quantity": 8,
+      "description": "Print Advertisements",
+      "notes": "Magazine and newspaper ads"
+    },
+    {
+      "id": "5",
+      "nr": 5,
+      "item": "MKT005",
+      "quantity": 15,
+      "description": "Brochures",
+      "notes": "Product and service brochures"
+    }
+  ]
+}

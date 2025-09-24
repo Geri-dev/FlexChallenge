@@ -1,0 +1,12 @@
+.cancel-btn {
+  background-color: #FE4C4A;
+  border: 1px solid #FE4C4A;
+  color: white;
+  transition: all 0.2s ease;
+}
+.cancel-btn:hover {
+  background-color: #EB4345 !important;
+  border-color: #EB4345 !important;
+  color: white !important;
+  box-shadow: none; /* hiq shadow default të focus */
+}

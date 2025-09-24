@@ -1,0 +1,39 @@
+.custom-input {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 8px 12px;
+  transition: all 0.2s ease;
+}
+
+.custom-input:focus {
+  background-color: #f5f5f7 !important;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+
+.btn-close {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.btn-close:hover {
+  opacity: 0.75;
+}
+
+.info-icon {
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  flex-shrink: 0;
+}

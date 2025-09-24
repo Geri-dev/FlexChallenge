@@ -1,0 +1,12 @@
+.save-btn {
+  background-color: #71cf48;
+  border: 1px solid #71cf48;
+  color: white;
+  transition: all 0.2s ease;
+}
+.save-btn:hover {
+  background-color: #68c142 !important;
+  border-color: #68c142 !important;
+  color: white !important;
+  box-shadow: none; 
+}

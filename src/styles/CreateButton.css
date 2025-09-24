@@ -1,0 +1,31 @@
+
+.create-btn {
+  background-color: #71cf48;
+  border: 1px solid #71cf48;
+  color: white;
+  transition: all 0.2s ease;
+}
+.create-btn:hover {
+  background-color: #68c142 !important;
+  border-color: #68c142 !important;
+  color: white !important;
+  box-shadow: none; 
+}
+
+.custom-input {
+  background-color: #F5F5F7 !important;
+  height: 32px;
+  box-shadow: none !important;          
+  border: none !important;
+}
+
+.custom-input:focus {
+  background-color: #F5F5F7 !important; 
+  box-shadow: none !important;  
+  border-color: transparent !important;
+  outline: none !important;
+}
+
+
+
+

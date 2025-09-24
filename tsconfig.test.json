@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "commonjs",          // 👈 output CJS code
+    "moduleResolution": "node",
+    "verbatimModuleSyntax": false, // 👈 force TS to downlevel ESM to require()
+    "types": ["jest"],
+    "noEmit": true
+  },
+  "include": ["src", "**/*.test.ts", "**/*.test.tsx"]
+}
