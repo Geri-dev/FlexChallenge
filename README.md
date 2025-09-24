@@ -1,4 +1,4 @@
-How to run your app with all the necessary details ? 
+// How to run this app with all the necessary details ? 
 
 1. Make sure you have Node.js and npm installed, you can check it in terminal with the command -> ( node -v )
 2. Clone the repository with terminal command -> git clone <your-repo-url> | then go with command -> cd InventoryApp
@@ -8,44 +8,19 @@ How to run your app with all the necessary details ?
 6. You can run some tests with -> npm test
 7. Creating an optimized production build (this is for final step deployment) -> npm run build
 
-
 For questions or feedback, contact: Gerald Muja – [geraldmuja13@example.com]
 
 
-How we can make this app more secure?
-
-1. Secure the Backend (if applicable):
-If our app fetches data from a backend API or database we should make: 
-
-Authentication & Authorization: Use JWT or session tokens to restrict access to authorized users,
-Role-based access control (e.g., admin vs. viewer).
-
-HTTPS: Ensure all API requests go over HTTPS to encrypt data in transit.
-
-2. Protect API Requests:
-We should Keep API keys or sensitive URLs in .env files, never in source code.
-
-3. Front-end Security:
-Avoid storing sensitive data in localStorage, localStorage can be accessed by XSS attacks. Use session storage cautiously or secure cookies.
-
-4. Minimize exposed endpoints:
-Only fetch necessary data; avoid sending sensitive information to the client.
 
 
 
-/* How would you make this solution scale to millions of records? */
 
-Scaling this App to handle millions of records, requires thinking moslty about the backend, database and data fetching strategies.
+// How we can make this app more secure?
 
-1. Optimizing the backend with databases using PostgreSQL, MongoDB
-2. Caching: Using Redis for frequently accessed queries to reduce database load.
+To ensure the security of our application, it is important to implement measures both on the backend and frontend. For the backend, if the app interacts with an API or database, authentication and authorization should be enforced using JWT or session tokens, along with role-based access control to differentiate privileges such as admin versus viewer. All API requests should use HTTPS to encrypt data in transit. API keys and sensitive URLs must be kept in .env files and never included in the source code to prevent accidental exposure.
 
-3. Optimizing Front-end:
-Use libraries like React Window or React Virtualized to render only visible rows.
-This prevents the browser from crashing with millions of DOM element
 
-4. Client-side Filtering / Sorting on limited data , perform filtering and sorting on small chunks, not the entire dataset.
 
-5. API & Data Handling: 
-Fetch data in batches instead of one large request.
-GraphQL, allows clients to request only the fields they need, reducing data transfer.
+// How would you make this solution scale to millions of records? //
+
+Scaling this application to handle millions of records requires careful consideration of backend architecture, database design, and data fetching strategies. On the backend, using optimized databases such as PostgreSQL or MongoDB is essential, along with caching frequently accessed queries with tools like Redis to reduce database load.Additionally, API and data handling should be optimized by fetching data in batches instead of one large request, and using technologies like GraphQL to allow clients to request only the fields they need, minimizing data transfer and improving efficiency.
