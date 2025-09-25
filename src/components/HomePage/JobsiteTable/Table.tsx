@@ -104,11 +104,11 @@ export const Table = () => {
             ) : (
               filteredJobsites.map((jobsite) => (
                 <tr key={jobsite.id}>
-                  <td className="py-2 text-center">
+                  <td className="py-1 text-center">
                     <button
-                      className="btn btn-link text-primary text-decoration-none p-0 border-0 bg-transparent"
+                      className="btn btn-link text-primary text-decoration-none w-50 text-start"
                       onClick={() => handleJobsiteClick(jobsite.id)}
-                      style={{ fontSize: "inherit" }}
+                      style={{ fontSize: "inherit", marginLeft:"35%" }}
                     >
                       {jobsite.name}
                     </button>
