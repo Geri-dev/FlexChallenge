@@ -1,6 +1,6 @@
 import { useJobsiteContext } from "../../contexts/JobsiteContext";
 import { useNavigate } from "react-router-dom";
-import '../../styles/LeftSidebar.css';
+import "../../styles/LeftSidebar.css";
 
 interface LeftSidebarProps {
   selectedCategories: string[];
@@ -8,8 +8,11 @@ interface LeftSidebarProps {
   jobsiteId?: string;
 }
 
-export const LeftSidebar = ({selectedCategories,onCategoriesChange,jobsiteId}: LeftSidebarProps) => {
-  
+export const LeftSidebar = ({
+  selectedCategories,
+  onCategoriesChange,
+  jobsiteId,
+}: LeftSidebarProps) => {
   const { jobsites } = useJobsiteContext();
   const navigate = useNavigate();
 
@@ -42,7 +45,6 @@ export const LeftSidebar = ({selectedCategories,onCategoriesChange,jobsiteId}: L
       style={{ width: "347px", height: "501px" }}
     >
       <div className="p-4 h-100 d-flex flex-column">
-        
         <h4 className="mb-4 fw-bold text-dark fs-6">{jobsite.name}</h4>
 
         {/* Categories */}
@@ -93,19 +95,24 @@ export const LeftSidebar = ({selectedCategories,onCategoriesChange,jobsiteId}: L
 
         <div className="d-flex justify-content-center">
           <button
-            className="btn d-flex p-0 go-back-btn"
+            className="btn d-flex p-0 go-back-btn px-3"
             onClick={() => navigate("/")}
           >
             <span className="px-2 py-1 fs-6 d-flex align-items-center justify-content-center text-white">
               Go Back
             </span>
             <span
-              className="px-1 py-1 d-flex align-items-center justify-content-center"
+              className="d-flex align-items-center justify-content-center"
               style={{ borderLeft: "1.5px solid #0F5C97" }}
             >
               <i
                 className="bi bi-arrow-left"
-                style={{ fontSize: "1rem", lineHeight: 1, color: "white" }}
+                style={{
+                  fontSize: "1.29rem",
+                  lineHeight: 1,
+                  color: "white",
+                  marginLeft: "10px",
+                }}
               ></i>
             </span>
           </button>

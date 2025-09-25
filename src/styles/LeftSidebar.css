@@ -26,8 +26,11 @@
   transition: background-color 0.2s ease;
 }
 
+.go-back-btn:focus,
+.go-back-btn:active,
 .go-back-btn:hover {
-  background-color: #0F5C97;
+  background-color: #0F5C97 !important;
+  box-shadow: none !important; 
 }
 
 .category-btn {
@@ -48,7 +51,7 @@
   overflow: hidden;
 }
 
-/* Responsive behavior */
+
 @media (max-width: 768px) {
   .inventory-sidebar {
     width: 100% !important;
